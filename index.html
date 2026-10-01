@@ -3,27 +3,162 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="images/humaniza-logo-vetorizada.svg" />
+    <link rel="apple-touch-icon" href="images/logo-principal-humaniza.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow" />
-    <title>Humaniza Fisioterapia | Atendimento Humanizado em Santana, São Paulo</title>
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0e4a57" />
+    <title>Humaniza Fisioterapia | Fisioterapia em Santana, Zona Norte de SP</title>
     <meta
       name="description"
-      content="Fisioterapia humanizada e personalizada em Santana (SP), presencial ou a domicílio. Agende sua avaliação e cuide da sua qualidade de vida com quem entende você."
+      content="Fisioterapia humanizada em Santana, zona norte de São Paulo: na clínica ou a domicílio. Dores, pós-cirúrgico e terceira idade. Agende pelo WhatsApp."
     />
+    <link rel="canonical" href="https://humanizafisioterapia.vercel.app/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Humaniza Fisioterapia" />
+    <meta property="og:url" content="https://humanizafisioterapia.vercel.app/" />
+    <meta property="og:title" content="Humaniza Fisioterapia | Fisioterapia em Santana, Zona Norte de SP" />
     <meta
-      name="keywords"
-      content="fisioterapia Santana São Paulo, fisioterapia domiciliar zona norte SP, fisioterapeuta terceira idade, fisioterapia humanizada São Paulo"
+      property="og:description"
+      content="Fisioterapia humanizada e personalizada, na clínica em Santana ou no conforto da sua casa. Agende sua avaliação pelo WhatsApp."
     />
+    <meta property="og:image" content="https://humanizafisioterapia.vercel.app/images/og-humaniza.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Humaniza Fisioterapia: fisioterapia humanizada em Santana, zona norte de São Paulo"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Humaniza Fisioterapia | Fisioterapia em Santana, Zona Norte de SP" />
+    <meta
+      name="twitter:description"
+      content="Fisioterapia humanizada e personalizada, na clínica em Santana ou no conforto da sua casa. Agende sua avaliação pelo WhatsApp."
+    />
+    <meta name="twitter:image" content="https://humanizafisioterapia.vercel.app/images/og-humaniza.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" as="image" href="images/atendimento-hero-poster.jpg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": ["MedicalClinic", "LocalBusiness"],
+            "@id": "https://humanizafisioterapia.vercel.app/#clinica",
+            "name": "Humaniza Fisioterapia",
+            "description": "Clínica de fisioterapia humanizada e personalizada em Santana, zona norte de São Paulo, com atendimento presencial e domiciliar.",
+            "url": "https://humanizafisioterapia.vercel.app/",
+            "image": "https://humanizafisioterapia.vercel.app/images/og-humaniza.png",
+            "logo": "https://humanizafisioterapia.vercel.app/images/logo-principal-humaniza.png",
+            "telephone": "+55 11 2976-1001",
+            "medicalSpecialty": "https://schema.org/Physiotherapy",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rua Banco das Palmas, 401 - Santana",
+              "addressLocality": "São Paulo",
+              "addressRegion": "SP",
+              "postalCode": "02016-020",
+              "addressCountry": "BR"
+            },
+            "areaServed": "Santana e zona norte de São Paulo",
+            "hasMap": "https://www.google.com/maps/search/?api=1&query=Rua%20Banco%20das%20Palmas%2C%20401%2C%20Santana%2C%20S%C3%A3o%20Paulo",
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "08:00",
+              "closes": "18:00"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Agendamento",
+              "telephone": "+55 11 2976-1001",
+              "url": "https://wa.me/551129761001",
+              "availableLanguage": "Portuguese"
+            },
+            "sameAs": ["https://www.instagram.com/humanizafisioterapia"]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://humanizafisioterapia.vercel.app/#site",
+            "url": "https://humanizafisioterapia.vercel.app/",
+            "name": "Humaniza Fisioterapia",
+            "inLanguage": "pt-BR",
+            "publisher": { "@id": "https://humanizafisioterapia.vercel.app/#clinica" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://humanizafisioterapia.vercel.app/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Preciso de indicação médica para agendar?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Não é obrigatório. Você pode agendar diretamente uma avaliação conosco."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Vocês atendem em domicílio?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Oferecemos atendimento domiciliar para quem tem dificuldade de se deslocar até a clínica, sempre considerando a segurança do paciente, a rotina da família e as condições do ambiente."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Quanto tempo dura o tratamento?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Varia de acordo com cada caso. Definimos isso juntos após a avaliação inicial."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Atendem idosos com mobilidade reduzida?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim, o cuidado com a terceira idade é uma das nossas prioridades."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Como é a primeira consulta?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Conversamos sobre seu histórico, fazemos uma avaliação fisioterapêutica e montamos um plano personalizado."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
     <script defer src="assets/index-CO143KHF.js?v=5576114a4846"></script>
     <link rel="stylesheet" href="assets/index-C5HDvYGC.css?v=642c6ba6b443">
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Humaniza Fisioterapia: fisioterapia humanizada em Santana, São Paulo</h1>
+      <p>
+        Atendimento presencial na clínica ou a domicílio, com cuidado pensado para cada paciente: dores articulares e
+        musculares, recuperação pós-cirúrgica, terceira idade e mobilidade, prevenção e musculação terapêutica.
+      </p>
+      <p>Rua Banco das Palmas, 401, Santana, São Paulo (SP), CEP 02016-020. Segunda a sexta, das 08h às 18h.</p>
+      <p>
+        Telefone e WhatsApp: <a href="https://wa.me/551129761001">+55 11 2976-1001</a> ·
+        <a href="https://www.instagram.com/humanizafisioterapia">Instagram</a>
+      </p>
+    </noscript>
   </body>
 </html>
